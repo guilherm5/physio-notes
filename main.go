@@ -8,5 +8,7 @@ import (
 func main() {
 	router := gin.Default()
 	routes.Cadastro(router)
+	routes.Login(router)
+	routes.HelloMiddleware(router)
 	router.Run(":8080")
 }
