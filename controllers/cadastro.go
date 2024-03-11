@@ -50,6 +50,6 @@ func Cadastro(c *gin.Context) {
 		return
 	}
 	c.JSON(200, gin.H{
-		"Mensagem:": "Sucesso ao realizar cadastro",
+		"Mensagem:": "Sucesso ao finalizar cadastro",
 	})
 }
