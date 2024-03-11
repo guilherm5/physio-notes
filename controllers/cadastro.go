@@ -12,7 +12,7 @@ import (
 var DB = database.DatabasePhysio()
 
 func Cadastro(c *gin.Context) {
-	data := models.CadastroFisio{}
+	data := models.User{}
 
 	err := c.ShouldBindJSON(&data)
 	if err != nil {
