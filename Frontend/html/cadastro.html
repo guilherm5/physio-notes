@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Frontend/css/cadastro.css">
+    <title>Physio Notes</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+    <section id="section-cadastro">
+        <div id="cadastro-success"></div> 
+        <div id="cadastro-error"></div> 
+        <form id="form-cadastro">
+            <img src="../img/icons8-physiotherapy-100.png" alt="Simbolo da fisioterapia" id="img-fisioterapia">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Nome para cadastro</label>
+                <input id="input-nome" class="form-control" placeholder="Escreva seu nome completo">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input id="input-email" type="email" class="form-control"  placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label>Senha</label>
+                <input id="input-senha" type="password" class="form-control"  placeholder="Digite uma senha">
+            </div>
+            <button id="btn-cadastro" type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </section>
+    <script src="../javascript/cadastro.js"></script>
+</body>
+</html>

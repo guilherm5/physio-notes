@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Frontend/css/login.css">
+    <title>Physio Notes</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="cadastro.html">Realizar cadastro</a>
+            </div>
+        </div>
+    </nav>
+    <section id="section-login">
+        <div id="login-success"></div> 
+        <div id="login-error"></div> 
+        <form id="form-login">
+            <img src="../img/icons8-physiotherapy-100.png" alt="Simbolo da fisioterapia" id="img-fisioterapia">
+            <div class="form-group">
+                <label>Email</label>
+                <input id="input-email" type="email" class="form-control"  placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label>Senha</label>
+                <input id="input-senha" type="password" class="form-control"  placeholder="Digite sua senha">
+            </div>
+            <button id="btn-login" type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+    </section>
+    <script src="../javascript/login.js"></script>
+</body>
+</html>
